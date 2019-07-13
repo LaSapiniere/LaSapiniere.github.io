@@ -1,0 +1,29 @@
+section {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+.layout {
+	max-width: 100%;
+}
+
+.flextext {
+	display: block;
+}
+
+.contenu {
+	padding: 1rem;
+	flex-basis: 100%;
+}
+
+@media (min-width: 600px)
+	.fleximg {
+		flex-basis: 41.666667%;
+   		flex-grow: 0;
+    	max-width: 48.666667%;
+	} 
+    

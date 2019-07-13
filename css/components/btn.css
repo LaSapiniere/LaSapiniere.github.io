@@ -1,0 +1,18 @@
+.btn {
+  background-color: #6AB04C;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn:hover {
+  background-color: #487733;
+}
+
+/*#dd0a35
+.btn:hover {
+  background-color: #b72222;
+}
+*/
