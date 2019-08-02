@@ -1,0 +1,71 @@
+.banner2 {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.8), rgba(0,0,0,0.2) 50%), url(../../images/markus.jpg);
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+/*https://www.youtube.com/watch?v=oxi7pfa5DKA&list=WL&index=24
+*/
+
+
+.boxes {
+/*	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	grid-gap: 10px;
+	padding: 10px;
+	box-sizing: border-box;*/
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.boxes .box {
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-basis: 100px;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	margin: 20px 10px;
+    border-radius: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+	background: #fff;
+/*	padding: 20px 40px 40px;
+*/	text-align: center;
+	overflow: hidden;
+}
+
+.boxes .box:nth-child(1) {
+	background: linear-gradient(45deg,#036eb7, #64EAFF);
+}
+.boxes .box:nth-child(2) {
+	background: linear-gradient(45deg,#E91E63, #ED55FF);
+}
+.boxes .box:nth-child(3) {
+	background: linear-gradient(45deg,#F05A4F, #F4C030);
+}
+/*.boxes .box:nth-child(4) {
+	background: linear-gradient(45deg,#086D35, #00FF72);
+}*/
+
+.boxes .box h2 {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-size: 100px;
+	color: #fff;
+	z-index: 1;
+	opacity: 0.4;
+}
+
+.boxes .box p {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 18px;
+}

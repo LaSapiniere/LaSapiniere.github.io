@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great|Karla|Open+Sans");
+
+@import url("components/container.css");
+@import url("components/nav.css");
+@import url("components/btn.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+@import url("components/amap.css");
+@import url("components/qu'est-ce.css");
+@import url("components/contact.css");
+@import url("components/histoire.css");
+@import url("components/produits.css");
+@import url("components/us.css");
+@import url("components/index.css");
+@import url("components/recette.css");
+@import url("components/ref.css");
+@import url("components/you.css");
+@import url("components/accueil.css");
+
+/*A propos .. de nous : AVATAR lesson lewagon building a UI kit*/
+
+body {
+	font-family: 'Karla', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+	background: #efefef;
+}
+
+h1, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold; 
+}
+
+a {
+	text-decoration: none;
+}
