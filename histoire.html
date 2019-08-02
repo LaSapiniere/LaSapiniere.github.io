@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>La Sapinière</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+    <meta name="description" content="La Sapinière, 4 hectares en transition agricole au coeur de la Vendée">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+    .mySlides {display:none;}
+    </style>
+</head>
+<body>
+
+
+        <div class="nav-bar">
+            <a class="logo" href="index.html">
+            <img src="images/logoo1.png" alt="logo"><p>La Sapinière</p>
+            </a>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">AMAP<span class="arrow-down"></span></a>
+                    <ul class="dropdown">
+                        <li><a href="qu'est-ce.html">Q'est-ce que c'est ?</a></li>
+                        <li><a href="amap.html">Votre AMAP</a></li>
+                        <li><a href="produits.html">Nos produits</a></li>
+                    </ul>
+                </li>
+               <li><a href="recettes.html">Recettes</a></li>
+               <li><a href="histoire.html">Histoire</a></li>
+               <li><a href="#">A propos<span class="arrow-down"></span></a>
+                    <ul class="dropdown">
+                        <li><a href="us.html">De Nous</a></li>
+                        <li><a href="ref.html">Inspirations</a></li>
+                    </ul>
+               </li>
+               <li><a href="#">Contact<span class="arrow-down"></span></a>
+                    <ul class="dropdown">
+                        <li><a href="contact.html">Nous contacter</a></li>
+                        <li><a href="accueil.html">Accueil à la ferme</a></li>
+                    </ul>
+               </li>
+            </ul>
+        </div>
+        <div class="nav-mobile">
+            <div class="menu-icon"><span></span> <span></span> <span></span></div>
+            <a class="logo" href="index.html">
+            <img src="images/logoo1.png" alt="logo"><p>La Sapinière</p></a>
+
+        </div>
+
+   
+
+        <section class="background2">
+            <div class="container">
+                <h1 style="font-size: 50px; text-align: center; margin-top: 80px;">Historique de la ferme</h1>
+                <div class="border" style=" margin-bottom: 90px;"></div>
+            </div>
+        </section>
+
+        <section class="background">
+            <h2 class="w3-center">Evolution de la ferme</h2>
+
+        <!-- SLIDER 1 -->
+
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="images/ulière.jpg" style="width:100%">
+                <img class="mySlides" src="images/SAPINIERE 1965 - 1.jpg" style="width:100%">
+                <img class="mySlides" src="images/SAPINIERE2.jpg" style="width:100%">
+                <img class="mySlides" src="images/SAPINIERE3.jpg" style="width:100%">
+                <img class="mySlides" src="images/SAPINIERE4.jpg" style="width:100%">
+                <img class="mySlides" src="images/SAPINIERE5.jpg" style="width:100%">
+                <img class="mySlides" src="images/SAPINIERE6.jpg" style="width:100%">
+                <img class="mySlides" src="images/SAPINIERE7.jpg" style="width:100%">
+
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+        </section>
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+    </script>
+
+
+
+
+    <section class="timeline">
+        <div class="container">
+            <div class="timeline-item">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-img-header">
+                        <h2>Reprise de la ferme</h2>
+                    </div>
+                    <div class="date">2009</div>
+                    <p>Récupération de la maison ainsi que de ses 4 hectares. A partir de ce moment, nous passons toutes nos vacances en Vendée. Débutent alors les travaux de rénovation.</p>
+<!--                     <a class="bnt-more" href="javascript:void(0)">More</a>
+ -->                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-img-header">
+                        <h2>Passage en agro-foresterie</h2>
+                    </div>
+                    <div class="date">Hiver 2010-2011</div>
+                    <p>Plantation d'arbres sur quelques parcelles pour la biodiversité. Les arbres ont beaucoup souffert au départ avec les vaches mais désormais ils ont bien grandi.</p>
+<!--                     <a class="bnt-more" href="javascript:void(0)">More</a>
+ -->                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-img-header">
+                        <h2>Première installation</h2>
+                    </div>
+                    <div class="date">Printemps 2012</div>
+                    <p>Fin des gros travaux. Nous quittons Sargé pour nous partager entre la ferme et notre nouvel appartement à Paris.</p>
+<!--                     <a class="bnt-more" href="javascript:void(0)">More</a>
+ -->                </div>
+            </div>
+
+            
+
+            <div class="timeline-item">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInLeft">
+                    <div class="timeline-img-header">
+                        <h2>Soirée à la ferme</h2>
+                    </div>
+                    <div class="date">22 Octobre 2016</div>
+                    <p>Pour fêter avec les amis et voisins 20 ans de mariage, le départ en retraite de Tancrède et le début de l'activité de maraichage. Beaucoup de choses à fêter pour une seule soirée !</p>
+<!--                     <a class="bnt-more" href="javascript:void(0)">More</a>
+ -->                </div>
+            </div>
+
+           <div class="timeline-item">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-img-header">
+                        <h2>Lancement du projet</h2>
+                    </div>
+                    <div class="date">Novembre 2016</div>
+                    <p>Création de l'entreprise agricole de la Sapinière et démarrage de la conversion en bio. Ca y est, c'est le début d'une nouvelle aventure !</p>
+<!--                     <a class="bnt-more" href="javascript:void(0)">More</a>
+ -->                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-img-header">
+                        <h2>Premier tunnel et 1er panier</h2>
+                    </div>
+                    <div class="date">Printemps 2017</div>
+                    <p>Mise en place du premier tunnel avec la grande bâche qui a bien failli s'envoler plus d'une fois. Livraison des premiers paniers à Paris à une dizaine d'abonnés.</p>
+<!--                     <a class="bnt-more" href="javascript:void(0)">More</a>
+ -->                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-img-header">
+                        <h2>Camp Scout</h2>
+                    </div>
+                    <div class="date">Eté 2017</div>
+                    <p>Accueil du premier camp scout à la ferme pendant 2 semaines ! Très sympa. On recommencera l'an prochain.</p>
+<!--                     <a class="bnt-more" href="javascript:void(0)">More</a>
+ -->                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-img-header">
+                        <h2>Deuxième tunnel</h2>
+                    </div>
+                    <div class="date">Printemps 2018</div>
+                    <p>Mise en place du deuxième tunnel.</p>
+<!--                     <a class="bnt-more" href="javascript:void(0)">More</a>
+ -->                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-img-header">
+                        <h2>Travaux maison</h2>
+                    </div>
+                    <div class="date">Eté 2018</div>
+                    <p>Isolation du mur externe de la cuisine made by de Guerry.</p>
+
+<!--                     <a class="bnt-more" href="javascript:void(0)">More</a>
+ -->                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-img-header">
+                        <h2>Deuxième camp scout</h2>
+                    </div>
+                    <div class="date">Eté 2018</div>
+                    <p>Accueil pour la seconde fois d'un camp scout en échange de services.</p>
+<!--                     <a class="bnt-more" href="javascript:void(0)">More</a>
+ -->                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-img-header">
+                        <h2>Certification bio</h2>
+                    </div>
+                    <div class="date">Novembre 2018</div>
+                    <p>Après 2 ans de conversion en bio nous y voila ! Nos produits ont désormais le label.</p>
+<!--                     <a class="bnt-more" href="javascript:void(0)">More</a>
+ -->                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-img"></div>
+                <div class="timeline-content timeline-card js--fadeInRight">
+                    <div class="timeline-img-header">
+                        <h2>Installation à plein temps</h2>
+                    </div>
+                    <div class="date">Eté 2019</div>
+                    <p>Jusqu'ici nous n'étions à la ferme qu'à temps partiel. Maintenant nous avons 2 fois plus de temps et de bras avec Christine.</p>
+<!--                     <a class="bnt-more" href="javascript:void(0)">More</a>
+ -->                </div>
+            </div>
+
+      </div>
+    </section>
+
+
+
+
+ <!-- FOOTER START -->
+    <div class="footer">
+        <div class="contain">
+            <div class="col">
+                 <h1>Pages</h1>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="recettes.html">Recettes</a></li>
+                        <li><a href="histoire.html">Histoire</a></li>
+                    </ul>
+            </div>
+            <div class="col">
+                 <h1>AMAP</h1>
+                     <ul>
+                          <li><a href="qu'est-ce.html">Qu'est-ce que c'est ?</a> </li>
+                          <li><a href="amap.html">Votre AMAP</a></li>
+                          <li><a href="produits.html">Nos produits</a></li>
+                     </ul>
+            </div>
+            <div class="col">
+                <h1>A Propos</h1>
+                <ul>
+                    <li><a href="us.html">De Nous</a></li>
+                    <li><a href="ref.html">Inspirations</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>Ressources</h1>
+                <ul>
+                    <li><a href="amap.html">Inscription AMAP</a></li>
+                    <li><a href="contact.html">Map</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>Contact</h1>
+                <ul>
+                    <li><a href="contact.html">Nous Contacter</a></li>
+                    <li><a href="accueil.html">Accueil à la ferme</a></li>
+                </ul>
+            </div>
+            <div class="col social">
+                <h1>Social</h1>
+                    <ul>
+                        <li><a href="https://www.facebook.com/La-Sapini%C3%A8re-822751697894148/" target="_blank"><img src="https://svgshare.com/i/5fq.svg" width="32" style="width: 32px;"></a></li>
+<!--                         <li><img src="images/gmail.png" width="32" style="width: 32px;">tancrede.deguerry@gmail.com</i></li>
+                        <li><img src="images/phone.png" width="32" style="width: 32px;">06 -----</li> -->
+                    </ul>
+            </div>
+            <div class="clearfix"></div>
+            <div class="copyright">Copyright &copy; La Sapinière - 2019 - All Rights Reserved</div>
+        </div>
+
+    </div>
+<!-- END OF FOOTER -->
+
+
+
+</body>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.menu-icon').click(function(){
+            $('.nav-bar').toggleClass('visible');
+        });
+    });
+</script>
